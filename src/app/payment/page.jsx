@@ -46,7 +46,7 @@ export default function ShippingAddressPage() {
         className="mx-auto max-w-screen-md"
         onSubmit={handleSubmit(submitHandler)}
       >
-        <h1 className="mb-4 text-xl">Payment Method</h1>       {' '}
+        <h1 className="mb-4 text-xl">Payment Method</h1>
         {['PayPal', 'Stripe', 'CashOnDelivery', 'Kakaopay', 'Naverpay'].map(
           (payment) => (
             <div key={payment} className="mb-4">

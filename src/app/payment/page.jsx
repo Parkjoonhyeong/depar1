@@ -30,14 +30,6 @@ export default function ShippingAddressPage() {
     router.push('/placeorder')
   }
 
-  const payments = [
-    'PayPal',
-    'Stripe',
-    'CashOnDelivery',
-    'Kakaopay',
-    'Naverpay',
-  ]
-
   return (
     <div>
       <CheckoutWizard activeStep={2} />
